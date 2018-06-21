@@ -25,11 +25,11 @@ var startGame = (function() {
         game.stage.backgroundColor = "#fff";
 
         // загружаем картинки и спрайты
-        game.load.image('ball', 'images/ball.png');
-        game.load.image('paddle', 'images/paddle.png');
-        game.load.image('brick', 'images/brick.png');
-        game.load.spritesheet('ball', 'images/wobble.png', 20, 20); // параметры нарезки спрайта
-        game.load.spritesheet('button', 'images/button.png', 120, 40);
+        game.load.image('ball', '/images/ball.png');
+        game.load.image('paddle', '/images/paddle.png');
+        game.load.image('brick', '/images/brick.png');
+        game.load.spritesheet('ball', '/images/wobble.png', 20, 20); // параметры нарезки спрайта
+        game.load.spritesheet('button', '/images/button.png', 120, 40);
     }
 
     function create() {
