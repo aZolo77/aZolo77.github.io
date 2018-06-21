@@ -19,7 +19,7 @@ var startGame = (function() {
 
     function preload() {
         // настройки для resize и цвета экрана
-        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL; // NO_SCALE, EXACT_FIT, RESIZE, USER_SCALE
+        game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE; // NO_SCALE, EXACT_FIT, RESIZE, USER_SCALE
         game.scale.pageAlignHorizontally = true;
         game.scale.pageAlignVertically = true;
         game.stage.backgroundColor = "#fff";
