@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+    background-color: #cfc0c0;
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 15px;
+    margin: 40px 10%;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px #b18e8e;
+}
+
+.phaser_scene {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: #9f8383;
+}
+
+button.my_btn {
+    border: none;
+    padding: 7px 11px;
+    background-color: coral;
+    color: antiquewhite;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #fff inset;
+    outline: none;
+    transition: .3s;
+}
+
+button.my_btn:hover {
+    cursor: pointer;
+    background-color: #f36b3a;
+    box-shadow: 0 5px 10px -5px #333;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.my_list {
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left: 0;
+}
+
+.my_list li {
+    padding: 5px 10px;
+}
+
+.my_list li:hover {
+    cursor: pointer;
+    background-color: rgb(247, 212, 167);
+}
