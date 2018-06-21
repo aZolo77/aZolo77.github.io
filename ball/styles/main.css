@@ -21,6 +21,16 @@ section {
     justify-content: center;
 }
 
+.phaser_scene canvas {
+    box-shadow: 0 0 5px #ccc;
+}
+
+.zFarewell {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+
 h4 {
     color: #9f8383;
 }
