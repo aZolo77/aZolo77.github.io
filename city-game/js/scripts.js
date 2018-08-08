@@ -1571,7 +1571,7 @@ const gameFuncs = (function() {
         startAngle: -1.55,
         animation: {
           // 30 секунд на ответ
-          duration: 60000
+          duration: 30000
         },
         emptyFill: '#414b4c',
         fill: {
