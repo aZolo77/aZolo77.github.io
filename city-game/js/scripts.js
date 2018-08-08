@@ -1039,7 +1039,7 @@ const gameFuncs = (function() {
       return new Promise(function(res, rej) {
         // == подгружаем список городов из файла
         $.get('https://azolo77.github.io/cities/', function(data) {
-          if (data.ok === true) {
+          if (data) {
             console.log(data);
             res(data);
           } else {
