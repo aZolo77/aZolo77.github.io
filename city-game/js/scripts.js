@@ -1079,7 +1079,7 @@ const gameFuncs = (function() {
       } else {
         this.getCitiesArr()
           .then(function(data) {
-            let cityArr = data.cityObj.city;
+            let cityArr = data.city;
             cityArr.forEach(item => {
               self.initialArr.push(item.name.toLowerCase());
             });
