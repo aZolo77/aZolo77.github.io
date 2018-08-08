@@ -704,8 +704,8 @@ const ttsConfig = (function() {
     // == произнести новую фразу
     speak: function(obj) {
       let utterThis = new SpeechSynthesisUtterance(obj);
-      utterThis.rate = 1.1;
-      utterThis.pitch = 0.9;
+      utterThis.rate = 1;
+      utterThis.pitch = 1;
       utterThis.lang = 'ru-RU';
       this.voices.filter(function(item) {
         if (item.lang.search(/ru/) != -1) {
